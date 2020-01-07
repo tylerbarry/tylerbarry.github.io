@@ -1,0 +1,54 @@
+main {
+  max-width: 900px;
+}
+
+body {
+  padding-bottom: 5rem;
+}
+
+header {
+  background: url(../images/hero-image.png) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: rgba(36,38,43,0.9);
+  font-weight: bolder;
+}
+
+.slogan {
+  color: rgba(36,38,43,0.8);
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header{
+    display: flex;
+  }
+}
