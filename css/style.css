@@ -9,13 +9,14 @@ html {
 }
 
 main {
-  padding: 10rem 0 10rem 0;
+  padding-bottom: 10rem;
 }
 
 /*Body*/
 
 body {
   background-color: #E5E6E2;
+  padding-top: 10rem;
 }
 
 /*Nav Bar*/
