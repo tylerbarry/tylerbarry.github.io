@@ -16,7 +16,6 @@ main {
 
 body {
   background-color: #E5E6E2;
-  padding-top: 10rem;
 }
 
 /*Nav Bar*/
@@ -28,6 +27,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .logo {
