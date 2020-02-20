@@ -22,7 +22,7 @@ body {
 nav {
   display: flex;
   background-color: #211F20;
-  padding: 1rem;
+  padding: 1.5rem;
   align-items: center;
   position: fixed;
   top: 0;
@@ -35,7 +35,7 @@ nav {
 
 .menu {
   width: 7.5%;
-  right: 1rem;
+  right: 1.5rem;
   position: absolute;
 }
 
