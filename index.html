@@ -1,90 +1,135 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio | Tyler Barry</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--Material Design Lite -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-red.min.css" />
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
+    <meta charset="utf-8">
+    <title> Tyler Barry Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ovo7cjy.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1b458d216d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <h1>Tyler Barry</h1>
-      <p class ="slogan">Product & UX/UI Designer in Boston</p>
+    <nav>
+      <img class="logo" src="/images/logo.png">
+      <img class="menu" src="/images/menu.png">
+    </nav>
+    <header class="hero">
+      <!--insert hero image via css-->
     </header>
-    <main class="mdl-layout__content mdl-grid">
-      <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
-        <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
+    <main>
+      <section class="landing">
+        <h1>My Name is <br> <span style="font-size: 15rem">Tyler Barry</span></h1>
+        <h2> Product & UX/UI Designer in Boston </h2>
+        <div class="buttonHolder">
+          <button class="main">See My Latest Work</button>
         </div>
-        <div class="mdl-cell mdl-cell--7-col">
-        <h2 class="mdl-card__title-text">Featured Project Name</h2>
-        <p class="project-description mdl-card__supporting-text">Project description text</p>
+        <p class="learn">What I'm About</p>
+        <div class="iconHolder">
+          <i class="fas fa-chevron-down"></i>
         </div>
-      </div>
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div>
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
+      </section>
+      <article class="passions">
+        <h3>I Love to Pursue</h3>
+        <section class="simplicity">
+          <header class="block_title">
+            <h4>Simplicity</h4>
+          </header>
+          <p class="quote">“It is always the simple that produce the marvelous” - <span style="color: #CC2936">Amelia Barr</span></p>
+          <p class="content">I find that people equate simplicity with less work. When actually simplicity can be more work than complex. Simplicity, to me, is a practice of decreasing the inessentials to master the essentials.</p>
+        </section>
+        <section class="quality">
+          <header class="block_title">
+            <h4>Quality</h4>
+          </header>
+          <p class="quote">“Quality is remembered far after price is forgotten” - <span style="color: #CC2936">Aldo Gucci</span></p>
+          <p class="content">Quality is where trust is built and loyalty is earned. If you’re doing something and not giving it your best, it’s not worth doing.</p>
+        </section>
+        <section class="efficiency">
+          <header class="block_title">
+            <h4>Efficiency</h4>
+          </header>
+          <p class="quote">“If I had six hours to chop down a tree, I’d spend the first four sharpening the axe.”<br>- <span style="color: #CC2936">Abraham Lincoln</span></p>
+          <p class="content">Efficiency (for myself and users) is my goal and the only way to achieve it is by spending time effectively.</p>
+        </section>
+      </article>
+      <article class="why_me">
+        <h3>So Why Me?</h3>
+        <section class="empathetic">
+          <header class="block_title">
+            <h4>Empathetic</h4>
+          </header>
+          <p class="content">UX/UI Design is all about designing with the user in mind. The only way to do that well is with a strong empathy muscle to work with. I’ve been working out mine for years between my personal and professional life. </p>
+        </section>
+        <section class="reliable">
+          <header class="block_title">
+            <h4>Reliable</h4>
+          </header>
+          <p class="content">I have a solid track record of being reliable and loyal to my commitments. I’m a firm believer that the level of reliability you perform at is directly related to your true core values.</p>
+        </section>
+        <section class="design_minded">
+          <header class="block_title">
+            <h4>Design Minded</h4>
+          </header>
+          <p class="content">Even before I could ever put it into words, I had an eye for what looked good and what didn’t. Now, having the formal training of fundamentals of design, I’ve learned to hone in on what about a design isn’t working and what it takes to allow elements to come together and compose a beautiful design.</p>
+        </section>
+        <div class="buttonHolder">
+          <button class="main">View My Bio</button>
         </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Project Name</h2>
-        </div>
-        <div class="mdl-card__supporting-text">Project description text</div>
-      </div>
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div>
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Project Name</h2>
-        </div>
-        <div class="mdl-card__supporting-text">Project description text</div>
-      </div>
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div>
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Project Name</h2>
-        </div>
-        <div class="mdl-card__supporting-text">Project description text</div>
-      </div>
+      </article>
+      <section class="showcase">
+          <div class="placeholder assemble">
+            <!--insert placeholder via css-->
+          </div>
+          <h3>Assemble</h3>
+          <p class="content">Assemble is a collaboration tool that bridges the gap between cloud storage and a social platform. This was a project that I was solely responsible for. Starting with defining the problem and finishing at high fidelity prototypes.</p>
+          <div class="buttonHolder">
+            <button class="main">See The Process</button>
+          </div>
+      </section>
+      <section class="showcase">
+          <div class="placeholder capstone">
+            <!--insert placeholder via css-->
+          </div>
+          <h3>Capstone</h3>
+          <p class="content">Cillum ipsum velit laborum minim anim duis labore ex elit duis veniam voluptate pariatur sunt. Aute culpa nisi ea nulla officia non commodo. Velit nisi ipsum id ut esse amet tempor dolore consequat.</p>
+          <div class="buttonHolder">
+            <button class="main">See The Process</button>
+          </div>
+          <div class="buttonHolder">
+            <button class="secondary">View All Projects</button>
+          </div>
+      </section>
+      <h3 class="connect">Let's Connect</h3>
     </main>
-    <footer class="mdl-mini-footer">
-      <ul class="mdl-mini-footer__link-list">
+    <footer>
+      <ul>
         <li>
           <a href="https://www.linkedin.com/in/tylerjbarry">
-            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            <i class="fab fa-linkedin-in"></i>
           </a>
         </li>
         <li>
           <a href="https://www.github.com/tylerbarry">
-            <i class="fab fa-github" aria-hidden="true"></i>
+            <i class="fab fa-github"></i>
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com/tylerbarry">
-            <i class="fab fa-facebook" aria-hidden="true"></i>
+            <i class="fab fa-facebook"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/tylerjbarry/">
-            <i class="fab fa-instagram" aria-hidden="true"></i>
+          <a href="https://www.instagram.com/tylerjbarry">
+            <i class="fab fa-instagram"></i>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/tyler_j_barry">
-            <i class="fab fa-twitter" aria-hidden="true"></i>
+          <a href="https://www.twitter.com/tyler_j_barry">
+            <i class="fab fa-twitter"></i>
           </a>
         </li>
         <li>
