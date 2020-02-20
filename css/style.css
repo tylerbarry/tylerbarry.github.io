@@ -66,11 +66,12 @@ ul {
   background: url(../images/hero_image.png) center / contain;
   background-repeat: no-repeat;
   height: 30vh;
+  padding-bottom: 3rem;
 }
 
 /*Page Container*/
 .landing {
-  padding: 3rem 1.5rem 3rem 1.5rem;
+  padding: 1.5rem 1.5rem 3rem 1.5rem;
   text-align: center;
 }
 
