@@ -63,16 +63,15 @@ ul {
 
 /*Hero Image*/
 .hero {
-  background: url(../images/hero_image.png) center / contain;
+  background: url(../images/hero_image.png) center / cover;
   background-repeat: no-repeat;
   height: 30vh;
-  width: 100%;
-  margin-top: 6rem;
+  margin: 5rem 1.5rem 0 1.5rem;
 }
 
 /*Page Container*/
 .landing {
-  padding: 3rem 0 3rem 0;
+  padding: 3rem 1.5rem 3rem 1.5rem;
   text-align: center;
 }
 
@@ -113,7 +112,7 @@ p {
 }
 
 .learn {
-  padding: 0 0 3rem 0;
+  padding: 3rem;
 }
 
 .fa-chevron-down {
