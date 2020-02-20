@@ -66,12 +66,12 @@ ul {
   background: url(../images/hero_image.png) center / contain;
   background-repeat: no-repeat;
   height: 30vh;
-  margin-top: 3rem;
+  margin-top: 4.5rem;
 }
 
 /*Page Container*/
 .landing {
-  padding: 3rem 1rem 3rem 1rem;
+  padding: 3rem 1.5rem 3rem 1.5rem;
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ p {
 }
 
 .learn {
-  padding: 3rem;
+  padding: 0 3rem 3rem 3rem;
 }
 
 .fa-chevron-down {
