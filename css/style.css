@@ -212,6 +212,10 @@ ul {
   margin-bottom: 3rem;
 }
 
+h3.projectTitle {
+  padding: 6rem;
+}
+
 .showcase {
   margin: 0 3rem 0 3rem;
 }
