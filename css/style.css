@@ -22,7 +22,7 @@ body {
   background: url(../images/hero_image.png) center / contain;
   background-repeat: no-repeat;
   height: 32vh;
-  margin: 15rem 3rem 10rem 3rem;
+  margin: 15rem 3rem 12.5rem 3rem;
 }
 
 /*Nav Bar*/
@@ -38,7 +38,7 @@ nav {
 
 footer {
   background-color: #211F20;
-  padding: 1.5rem;
+  padding: 3rem;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -57,7 +57,7 @@ h1 {
   font-style: normal;
   font-size: 8rem;
   text-align: center;
-  padding-bottom: 6rem;
+  padding-bottom: 12.5rem;
   letter-spacing: -.05rem;
 }
 
