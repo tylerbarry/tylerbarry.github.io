@@ -63,7 +63,7 @@ ul {
 
 /*Hero Image*/
 .hero {
-  background: url(../images/hero_image.png) center / cover;
+  background: url(../images/hero_image.png) center / contain;
   background-repeat: no-repeat;
   height: 30vh;
   margin-top: 6rem;
