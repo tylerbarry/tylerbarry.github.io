@@ -9,179 +9,47 @@ html {
 }
 
 main {
-  padding-bottom: 13rem;
+  padding-bottom: 10rem;
 }
 
-/*Tags*/
+/*Body*/
 
 body {
   background-color: #E5E6E2;
-}
-
-.hero {
-  background: url(../images/hero_image.png) center / contain;
-  background-repeat: no-repeat;
-  height: 32vh;
-  margin: 15rem 3rem 12.5rem 3rem;
 }
 
 /*Nav Bar*/
 nav {
   display: flex;
   background-color: #211F20;
-  padding: 3rem;
+  padding: 1rem;
   align-items: center;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+.logo {
+  width: 30%
+}
+
+.menu {
+  width: 7.5%;
+  right: 1rem;
+  position: absolute;
+}
+
+/*Footer Bar*/
 footer {
   background-color: #211F20;
-  padding: 3rem;
+  padding: 1rem;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-.menu {
-  position: absolute;
-  right: 3rem;
-}
-
-/*Text formatting*/
-
-h1 {
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 8rem;
-  text-align: center;
-  padding-bottom: 12.5rem;
-  letter-spacing: -.05rem;
-}
-
-h2 {
-  font-family: merriweather, serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 3.6rem;
-  padding-bottom: 12.5rem;
-  letter-spacing: -.05rem;
-  text-align: center;
-}
-
-h3 {
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 4.8rem;
-  padding-bottom: 12.5rem;
-  text-align: left;
-  letter-spacing: -.05rem;
-}
-
-p {
-  font-family: merriweather, serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #211F20;
-  font-size: 1.8rem;
-  line-height: 3rem;
-}
-
-p.quote {
-  font-weight: 400;
-}
-
-
-/*Buttons*/
-button.main {
-  background-color: #235789;
-  border: none;
-  color: #E5E6E2;
-  padding: 3rem;
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-align: center;
-  font-size: 3rem;
-  cursor: pointer;
-  border-radius: 5rem;
-  letter-spacing: -.05rem;
-  width: 45%;
-}
-
-.buttonHolder {
-  text-align: center;
-  padding: 3rem;
-  margin-bottom: 3rem;
-}
-
-button.secondary {
-  background-color: #CC2936;
-  border: none;
-  color: #E5E6E2;
-  padding: 3rem;
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-align: center;
-  font-size: 3rem;
-  cursor: pointer;
-  border-radius: 5rem;
-  letter-spacing: -.05rem;
-  width: 45%;
-}
-
-
-
-/*Sections*/
-.landing {
-margin: 0 3rem 6rem 3rem;
-text-align: center;
-}
-
-.learn {
-  padding-top: 12.5rem;
-  padding-bottom: 8rem;
-}
-
-article {
-  margin: 0 3rem 0 3rem;
-}
-
-/*Block Titles*/
-
-.block_title {
-  margin: 0 15rem 12.5rem 15rem;
-}
-
-h4 {
-  font-family: aktiv-grotesk, sans-serif;
-  color: #E5E6E2;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 5.6rem;
-  padding: 1.5rem;
-  text-align: center;
-  letter-spacing: -.05rem;
-  background-color: #211F20;
-  display: flex;
-  flex-flow: column;
-}
-
-.quote{
-  margin-bottom: 3rem;
-}
-
-.content{
-  margin-bottom: 6rem;
-}
-
 ul {
-  margin: auto;
-  font-size: 7rem;
+  font-size: 2.4rem;
 }
 
 .fab, .fas {
@@ -191,37 +59,63 @@ ul {
   width: 16%;
 }
 
-.fa-chevron-down {
-  float: none;
-  color: #211F20;
-  font-size: 10rem;
-  padding-bottom: 8rem;
-}
+/*LANDING PAGE*/
 
-.assemble {
-  background: url(../images/assemble_ph.png) center / contain;
+/*Hero Image*/
+.hero {
+  background: url(../images/hero_image.png) center / contain;
   background-repeat: no-repeat;
-  height: 32vh;
-  margin-bottom: 3rem;
+  height: 30vh;
+  width: 100%;
+  margin-top: 6rem;
 }
 
-.capstone {
-  background: url(../images/capstone_ph.png) center / contain;
-  background-repeat: no-repeat;
-  height: 32vh;
-  margin-bottom: 3rem;
-}
-
-h3.projectTitle {
-  padding: 0 0 6rem 0;
-}
-
-.showcase {
-  margin: 0 3rem 0 3rem;
-}
-
-.connect {
+/*Page Container*/
+.landing {
+  padding: 3rem 0 3rem 0;
   text-align: center;
-  font-size: 4.8rem;
-  padding: 3rem;
+}
+
+/*Text*/
+h1 {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.6rem;
+  letter-spacing: -.05rem;
+}
+
+h2 {
+  font-family: merriweather, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.0rem;
+  letter-spacing: -.05rem;
+}
+
+.headline {
+  padding-bottom: 3rem;
+}
+
+
+/*Button*/
+button.main {
+  background-color: #CC2936;
+  border: none;
+  color: #E5E6E2;
+  padding: 1rem;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 2.5rem;
+  letter-spacing: -.05rem;
+  width: 60%;
+}
+
+.buttonHolder {
+  text-align: center;
+  padding: 6rem;
 }
