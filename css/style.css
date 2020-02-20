@@ -9,7 +9,7 @@ html {
 }
 
 main {
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
 }
 
 /*Body*/
@@ -67,6 +67,7 @@ ul {
   background-repeat: no-repeat;
   height: 30vh;
   margin-bottom: 3rem;
+  width: auto;
 }
 
 /*Page Container*/
@@ -143,7 +144,7 @@ button.main {
   padding: 3rem;
 }
 
-/*PASSIONS PAGE*/
+/*Pursuits and Values*/
 .passions {
   padding: 0 1.5rem 1.5rem 1.5rem;
   text-align: left;
@@ -193,3 +194,49 @@ p.quote{
 .end {
   padding-bottom: 0rem;
 }
+
+/* Recent Projects */
+
+.recentProjects{
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  text-align: left;
+}
+
+.assemble {
+  background: url(../images/assemble_ph.png) center / contain;
+  background-repeat: no-repeat;
+  height: 32vh;
+  width: auto;
+}
+
+.capstone {
+  background: url(../images/capstone_ph.png) center / contain;
+  background-repeat: no-repeat;
+  height: 32vh;
+}
+
+.projectTitle {
+  padding: .5rem 0 1rem 0;
+}
+
+button.secondary {
+  background-color: #235789;
+  border: none;
+  color: #E5E6E2;
+  padding: 1rem;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 2.5rem;
+  letter-spacing: -.05rem;
+  width: 60%;
+}
+
+.connect {
+  text-align: center;
+  font-size: 2.0rem;
+}
+
