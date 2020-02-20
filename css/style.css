@@ -76,7 +76,7 @@ h3 {
   font-weight: 700;
   font-style: normal;
   font-size: 4.8rem;
-  padding-bottom: 6rem;
+  padding-bottom: 12.5rem;
   text-align: left;
   letter-spacing: -.05rem;
 }
@@ -154,7 +154,7 @@ article {
 /*Block Titles*/
 
 .block_title {
-  margin: 0 15rem 6rem 15rem;
+  margin: 0 15rem 12.5rem 15rem;
 }
 
 h4 {
@@ -163,7 +163,7 @@ h4 {
   font-weight: 700;
   font-style: normal;
   font-size: 5.6rem;
-  padding: 1.5rem;
+  padding: 3rem;
   text-align: center;
   letter-spacing: -.05rem;
   background-color: #211F20;
@@ -176,7 +176,7 @@ h4 {
 }
 
 .content{
-  margin-bottom: 6rem;
+  margin-bottom: 12.5rem;
 }
 
 ul {
@@ -219,5 +219,5 @@ ul {
 .connect {
   text-align: center;
   font-size: 4.8rem;
-  padding: 3rem;
+  padding: 12.5rem;
 }
