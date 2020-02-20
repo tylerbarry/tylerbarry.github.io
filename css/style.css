@@ -144,3 +144,48 @@ button.main {
 }
 
 /*PASSIONS PAGE*/
+.passions {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  text-align: left;
+}
+
+h3 {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.0rem;
+  letter-spacing: -.05rem;
+}
+
+/*Block Titles*/
+.block_title {
+  margin: 0 20% 1.5rem 20%;
+}
+
+h4 {
+  font-family: aktiv-grotesk, sans-serif;
+  color: #E5E6E2;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.0rem;
+  padding: 1rem;
+  text-align: center;
+  letter-spacing: -.05rem;
+  background-color: #211F20;
+  display: flex;
+  flex-flow: column;
+}
+
+p.quote{
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.content{
+  padding-bottom: 3rem
+}
+
+.why_me {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  text-align: left;
+}
