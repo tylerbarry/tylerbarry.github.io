@@ -97,6 +97,30 @@ h2 {
   padding-bottom: 3rem;
 }
 
+/*Guide*/
+
+.guide {
+  padding: 3rem 0 3rem 0;
+}
+
+p {
+  font-family: merriweather, serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #211F20;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+.learn {
+  padding: 3rem;
+}
+
+.fa-chevron-down {
+  float: none;
+  color: #211F20;
+  font-size: 2rem;
+}
 
 /*Button*/
 button.main {
