@@ -302,6 +302,10 @@ section.recentProjects {
   width: 32%;
 }
 
+.right{
+  right: 0;
+}
+
 /* Problem and Solution */
 
 section.problemSolution {
