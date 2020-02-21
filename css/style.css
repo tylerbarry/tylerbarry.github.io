@@ -291,7 +291,7 @@ section.recentProjects {
 
 .column {
   float: left;
-  padding: .75rem .6025rem 1.5rem .6025rem;
+  padding: .75rem 1rem 1.5rem 1rem;
 }
 
 .right, .middle {
