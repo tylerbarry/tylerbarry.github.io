@@ -277,6 +277,7 @@ section.recentProjects {
   content: "";
   display: table;
   clear: both;
+  
 }
 
 .detailItem {
@@ -292,14 +293,7 @@ section.recentProjects {
 .column {
   float: left;
   padding: .75rem 1rem 1.5rem 1rem;
-}
-
-.right, .middle {
-  width: 32%;
-}
-
-.left {
-  width: 36%;
+  width: 33%
 }
 
 /* Problem and Solution */
