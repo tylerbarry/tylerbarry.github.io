@@ -277,6 +277,7 @@ section.recentProjects {
   content: "";
   display: table;
   clear: both;
+  max-width: 480px;
   
 }
 
@@ -292,7 +293,7 @@ section.recentProjects {
 
 .column {
   float: left;
-  padding: 1rem 4rem 1.5rem 0rem;
+  padding: 1rem 0;
 }
 
 .left {
