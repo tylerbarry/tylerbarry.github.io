@@ -88,10 +88,16 @@ nav {
   z-index: 1;
 }
 
-.logo{
+.logo {
+  width: 100%;
+  z-index: 1;
+}
+
+nav > a {
   width: 40%;
   z-index: 1;
 }
+  
 
 /*Footer Bar*/
 footer {
@@ -295,7 +301,7 @@ section.recentProjects {
 
 .column {
   float: left;
-  padding: 1rem 2.55rem 1.5rem 0;
+  padding: 1rem 2.5rem 1.5rem 0;
 }
 
 .left {
