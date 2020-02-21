@@ -68,7 +68,7 @@ body {
   letter-spacing: -.05rem;
 }
 
-.showcase h34 {
+.showcase h4 {
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -295,7 +295,7 @@ section.recentProjects {
 
 .column {
   float: left;
-  padding: 1rem 2.75rem 1.5rem 0;
+  padding: 1rem 2.65rem 1.5rem 0;
 }
 
 .left {
