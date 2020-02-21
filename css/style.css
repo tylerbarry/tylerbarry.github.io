@@ -138,7 +138,7 @@ section.landingPage {
 
 /*Hero Image*/
 .hero {
-  background: url(../images/hero_image.png) center / cover;
+  background: url(../images/hero_image.png) center / contain;
   background-repeat: no-repeat;
   height: 25vh;
   width: 100%;
