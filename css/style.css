@@ -314,7 +314,7 @@ section.problemSolution {
 /* Slider */
 /* Slideshow container */
 .slideshow-container {
-  max-width: 34.5rem;
+  max-width: 480px;
   position: relative;
   padding: 1.5rem 0;
 }
