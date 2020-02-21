@@ -348,7 +348,7 @@ section.problemSolution {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: var(--overlay-color);
+  background-color: rgba(33,31,32,.7);
 }
 
 /* The dots/bullets/indicators */
