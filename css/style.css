@@ -292,8 +292,15 @@ section.recentProjects {
 
 .column {
   float: left;
-  padding: .75rem 1rem 1.5rem 1rem;
-  width: 33%
+  padding: 1rem .75rem 1.5rem .75rem;
+}
+
+.left {
+  width: 36%;
+}
+
+.middle, .right {
+  width: 32%;
 }
 
 /* Problem and Solution */
