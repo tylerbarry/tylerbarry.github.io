@@ -1,21 +1,71 @@
 /*Foundations*/
+:root {
+  --primary-color: #E5E6E2;
+  --secondary-color: #211F20;
+  --overlay-color: rgba(33,31,32,.98);
+  --menu-speed: 0.75s;
+}
 
 * {
   box-sizing: border-box;
+
 }
 
 html {
   font-size: 10px;
 }
 
-main {
-  padding-bottom: 6rem;
+body {
+  font-family: merriweather, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
 }
 
-/*Body*/
+.container{
+  max-width: 480px;
+  margin: auto;
+  overflow: hidden;
+  padding: 1.5rem;
+}
 
-body {
-  background-color: #E5E6E2;
+.showcase {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding-bottom: 4.5rem;
+  position: relative;
+}
+
+.showcase .showcase-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase h1 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 4.8rem;
+    letter-spacing: -.05rem;
+}
+
+.showcase h2 {
+  font-family: merriweather, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.0rem;
+  line-height: 3.6rem;
+  letter-spacing: -.05rem;
+}
+
+.showcase h3 {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.0rem;
+  letter-spacing: -.05rem;
 }
 
 /*Nav Bar*/
@@ -24,32 +74,26 @@ nav {
   background-color: #211F20;
   padding: 1.5rem;
   align-items: center;
-  position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
-.logo {
-  width: 30%
-}
-
-.menu {
-  width: 7.5%;
-  right: 1.5rem;
-  position: absolute;
+.logo{
+  width: 40%;
+  z-index: 1;
 }
 
 /*Footer Bar*/
 footer {
+  position: fixed;
+  justify-content: center;
   background-color: #211F20;
   padding: 1.5rem;
-  position: fixed;
+  align-items: center;
   bottom: 0;
   width: 100%;
-}
-
-ul {
-  font-size: 2.4rem;
+  z-index: 2;
 }
 
 .fab, .fas {
@@ -59,70 +103,48 @@ ul {
   width: 16.6%;
 }
 
-/*LANDING PAGE*/
-
-/*Hero Image*/
-.hero {
-  background: url(../images/hero_image.png) center / contain;
-  background-repeat: no-repeat;
-  height: 30vh;
-  margin-bottom: 1.5rem;
-  width: auto;
+footer > ul {
+  font-size: 2.6rem;
 }
 
-/*Page Container*/
-.landing {
-  padding: 6rem 1.5rem 3rem 1.5rem;
+/*Landing Page*/
+
+section.landingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-}
-
-/*Text*/
-h1 {
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 3.6rem;
-  letter-spacing: -.05rem;
-}
-
-h2 {
-  font-family: merriweather, serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 2.0rem;
-  letter-spacing: -.05rem;
+  padding-top: 5.5rem;
 }
 
 .headline {
-  padding-bottom: 3rem;
+  padding: 1.5rem 0 1.5rem 0;
 }
 
-/*Guide*/
-
-.guide {
-  padding: 0 0 3rem 0;
-}
-
-p {
-  font-family: merriweather, serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #211F20;
-  font-size: 1.4rem;
-  line-height: 2.2rem;
-}
-
-.learn {
-  padding: 0 3rem 3rem 3rem;
+.subtitle {
+  padding: 1.5rem 0;
 }
 
 .fa-chevron-down {
   float: none;
   color: #211F20;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
-/*Button*/
+.learn{
+  padding-bottom: 0;
+}
+
+/*Hero Image*/
+.hero {
+  background: url(../images/hero_image.png) center / cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+}
+
+/*Buttons*/
 button.main {
   background-color: #CC2936;
   border: none;
@@ -136,87 +158,7 @@ button.main {
   cursor: pointer;
   border-radius: 2.5rem;
   letter-spacing: -.05rem;
-  width: 60%;
-}
-
-.buttonHolder {
-  text-align: center;
-  padding: 3rem;
-}
-
-/*Pursuits and Values*/
-.passions {
-  padding: 0 1.5rem 1.5rem 1.5rem;
-  text-align: left;
-}
-
-h3 {
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.0rem;
-  letter-spacing: -.05rem;
-}
-
-/*Block Titles*/
-.block_title {
-  margin: 0 20% 3rem 20%;
-}
-
-h4 {
-  font-family: aktiv-grotesk, sans-serif;
-  color: #E5E6E2;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.0rem;
-  padding: 1rem;
-  text-align: center;
-  letter-spacing: -.05rem;
-  background-color: #211F20;
-  display: flex;
-  flex-flow: column;
-}
-
-p.quote{
-  margin-bottom: 1.5rem;
-  font-weight: 400;
-}
-
-.content{
-  padding-bottom: 3rem
-}
-
-.why_me {
-  padding: 0 1.5rem 1.5rem 1.5rem;
-  text-align: left;
-}
-
-.end {
-  padding-bottom: 0rem;
-}
-
-/* Recent Projects */
-
-.recentProjects{
-  padding: 0 1.5rem 1.5rem 1.5rem;
-  text-align: left;
-}
-
-.assemble {
-  background: url(../images/assemble_ph.png) center / contain;
-  background-repeat: no-repeat;
-  height: 32vh;
-  width: auto;
-}
-
-.capstone {
-  background: url(../images/capstone_ph.png) center / contain;
-  background-repeat: no-repeat;
-  height: 32vh;
-}
-
-.projectTitle {
-  padding: .5rem 0 1rem 0;
+  width: 100%;
 }
 
 button.secondary {
@@ -232,11 +174,80 @@ button.secondary {
   cursor: pointer;
   border-radius: 2.5rem;
   letter-spacing: -.05rem;
-  width: 60%;
+  width: 100%;
+}
+
+.buttonHolder {
+  text-align: center;
+  padding: 1.5rem;
+  margin: .75rem 24.79%;
+}
+
+/* Pursuit and Values */
+section.pursuits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.item {
+  padding: 1.5rem 0;
+}
+
+.block_title {
+  margin: 0 20% 3rem 20%;
+  color: #E5E6E2;
+  padding: .75rem 1.5rem;
+  text-align: center;
+  letter-spacing: -.05rem;
+  background-color: var(--secondary-color)
+}
+
+p.quote{
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+/* Values Page */
+section.values {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.end {
+  padding-bottom: 1.5rem;
+}
+
+/* Projects */
+section.recentProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.assemblePH {
+  background: url(../images/assemble_ph.png) center / contain;
+  background-repeat: no-repeat;
+  height: 32vh;
+}
+
+.capstonePH {
+  background: url(../images/capstone_ph.png) center / contain;
+  background-repeat: no-repeat;
+  height: 32vh;
+}
+
+.projectTitle {
+  padding: .5rem 0 1rem 0;
 }
 
 .connect {
   text-align: center;
   font-size: 2.0rem;
+  padding: 1.5rem;
 }
 
