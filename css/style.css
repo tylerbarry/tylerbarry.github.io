@@ -68,6 +68,15 @@ body {
   letter-spacing: -.05rem;
 }
 
+.showcase h34 {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  letter-spacing: -.05rem;
+  text-decoration: underline;
+}
+
 /*Nav Bar*/
 nav {
   display: flex;
@@ -282,11 +291,6 @@ section.recentProjects {
 .detailItem {
   font-size: 1.4rem;
   line-height: 2.4rem;
-}
-
-.detailTitle {
-  font-size: 1.6rem;
-  text-decoration: underline;
 }
 
 .column {
