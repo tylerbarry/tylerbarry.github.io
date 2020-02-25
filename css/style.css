@@ -1,10 +1,4 @@
-/*Foundations*/
-:root {
-  --primary-color: #E5E6E2;
-  --secondary-color: #211F20;
-  --overlay-color: rgba(33,31,32,.98);
-  --menu-speed: 0.75s;
-}
+/* Foundations */
 
 * {
   box-sizing: border-box;
@@ -21,67 +15,94 @@ body {
   font-style: normal;
   font-size: 1.4rem;
   line-height: 2.2rem;
+
 }
+
+/* Main Containers */
 
 .container{
   max-width: 480px;
   margin: auto;
   overflow: hidden;
-  padding: 1.5rem;
 }
 
 .showcase {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  padding-bottom: 4.5rem;
+  color: #E5E6E2;
   position: relative;
-}
-
-.showcase .showcase-inner {
   display: flex;
   flex-direction: column;
 }
 
+/* H1- H6 */
 .showcase h1 {
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 5rem;
-    line-height: 6rem;
+    font-size: 8.5rem;
+    line-height: 10.1rem;;
     letter-spacing: -.05rem;
+    padding: 8rem 0 2.5rem 0;
+    -webkit-text-stroke-width: 0.2rem;
+    -webkit-text-stroke-color: #E5E6E2;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .showcase h2 {
-  font-family: merriweather, serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 2.0rem;
-  line-height: 3.6rem;
-  letter-spacing: -.05rem;
-}
-
-.showcase h3 {
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 2.4rem;
+  font-size: 5rem;
+  line-height: 6rem;
   letter-spacing: -.05rem;
+  padding: 2.5rem 0;
+  color: #E5E6E2;
+}
+
+.showcase h3 {
+  font-family: merriweather, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  letter-spacing: -.05rem;
+  padding: 2.5rem 0;
+  color: #E5E6E2;
 }
 
 .showcase h4 {
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
   letter-spacing: -.05rem;
-  text-decoration: underline;
+  padding: 2.5rem 0;
+  color: #E5E6E2;
 }
 
-/*Nav Bar*/
+.showcase h5 {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.6rem;
+  line-height: 4.6rem;;
+  padding: 2.5rem 0;
+  -webkit-text-stroke-width: 0.075rem;
+  -webkit-text-stroke-color: #E5E6E2;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.showcase p {
+  padding: 2.5rem 0;
+}
+
+/* Nav Bar */
 nav {
   display: flex;
   background-color: #211F20;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   align-items: center;
   top: 0;
   width: 100%;
@@ -98,9 +119,8 @@ nav > a {
   width: 38%;
   z-index: 1;
 }
-  
 
-/*Footer Bar*/
+/* Footer Bar */
 footer {
   position: fixed;
   justify-content: center;
@@ -123,44 +143,7 @@ footer > ul {
   font-size: 2.6rem;
 }
 
-/*Landing Page*/
-
-section.landingPage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding-top: 5.5rem;
-}
-
-.headline {
-  padding: 1.5rem 0 .75rem 0;
-}
-
-.subtitle {
-  padding: 1rem 0 1rem 0;
-}
-
-.fa-chevron-down {
-  float: none;
-  color: #211F20;
-  font-size: 2.4rem;
-}
-
-.learn{
-  padding: 1rem 0;
-}
-
-/*Hero Image*/
-.hero {
-  background: url(../images/hero_image.png) center / cover;
-  background-repeat: no-repeat;
-  height: 30vh;
-  width: 100%;
-}
-
-/*Buttons*/
+/* Buttons */
 button.main {
   background-color: #CC2936;
   border: none;
@@ -170,160 +153,147 @@ button.main {
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   cursor: pointer;
   border-radius: 2.5rem;
-  letter-spacing: -.05rem;
-  width: 100%;
+  width: 20.27rem;
+  height: 5rem;
 }
 
 button.secondary {
-  background-color: #235789;
-  border: none;
+  background: transparent;
+  border: solid .2rem;
   color: #E5E6E2;
   padding: 1rem;
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   cursor: pointer;
   border-radius: 2.5rem;
-  letter-spacing: -.05rem;
-  width: 100%;
+  width: 20.27rem;
+  height: 5rem;
 }
 
-.buttonHolder {
+form {
   text-align: center;
-  padding: 1.5rem;
-  margin: .75rem 24.79%;
+  padding: 2.5rem 0;
 }
 
-/* Pursuit and Values */
-section.pursuits {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
+/* Landing Page */
+
+.inner.landingPage {
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ width: 100vw;
+ height: auto;
+ background: linear-gradient(180deg, #CC2936 0%, #235789 100%);
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ padding: 2.5rem 1.5rem;
 }
 
-.item {
-  padding: 1.5rem 0;
-}
 
-.block_title {
-  margin: 0 20% 3rem 20%;
+.fa-chevron-down {
+  float: none;
   color: #E5E6E2;
-  padding: .75rem 1.5rem;
-  text-align: center;
-  letter-spacing: -.05rem;
-  background-color: var(--secondary-color)
+  font-size: 2.4rem;
+  padding: 2.5rem 0;
 }
 
-p.quote{
-  margin-bottom: 1.5rem;
-  font-weight: 400;
-}
+/* RECENT PROJECTS */
 
-/* Values Page */
-section.values {
-  display: flex;
-  flex-direction: column;
+/* Project 1 */
+.inner.project1 {
+  background: #211F20;
   justify-content: center;
   text-align: left;
+  padding: 2.5rem 1.5rem;
 }
 
-.end {
-  padding-bottom: 1rem;
+img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 2.5rem;
 }
 
-/* Projects */
-section.recentProjects {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* Project 2 */
+.inner.project2 {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem 7.5rem 1.5rem;
+}
+
+/* ABOUT ME */
+
+/* Landing */
+
+.inner.aboutMe {
   text-align: left;
+  background: linear-gradient(180deg, #CC2936 0%, #235789 100%);
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+
 }
 
-.assemblePH {
-  background: url(../images/assemble_ph.png) center / contain;
-  background-repeat: no-repeat;
-  height: 32vh;
-}
-
-.capstonePH {
-  background: url(../images/capstone_ph.png) center / contain;
-  background-repeat: no-repeat;
-  height: 32vh;
-}
-
-.projectTitle {
-  padding: .5rem 0 1rem 0;
-}
-
-.connect {
+.headshot {
   text-align: center;
-  font-size: 2.0rem;
-  padding: 1.5rem;
+  padding-top: 8rem;
+}
+
+/* Pursuits */
+
+.inner.pursuits {
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Values */
+.inner.values {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem 7.5rem 1.5rem;
 }
 
 /* CASE STUDY */
-.projectSummary {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+/* 1.) Summary */
+
+/* Landing */
+.inner.assemble {
   text-align: left;
+  background: linear-gradient(180deg, #CC2936 0%, #235789 100%);
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.assemblePH {
   padding-top: 5.5rem;
 }
 
-.projectHeading {
+.caseStudyIntro {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
 }
 
-.duration {
-  width: 30%;
-  padding-left: 1.5rem;
-}
+/* Roles Tools Details */
 
-/* Details */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.inner.rtd {
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
 }
 
 .detailItem {
-  font-size: 1.4rem;
-  line-height: 2.4rem;
-}
-
-.column {
-  float: left;
-  padding: 1rem 2.5rem 1.5rem 0;
-}
-
-.left {
-  width: 36%;
-}
-
-.middle, .right {
-  width: 32%;
-}
-
-.right{
-  right: 0;
+  font-size: 1.6rem;
+  line-height: 3rem;
 }
 
 /* Problem and Solution */
-
-section.problemSolution {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+.inner.problemSolution {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem;
 }
 
 /* Slider */
@@ -331,7 +301,6 @@ section.problemSolution {
 .slideshow-container {
   max-width: 480px;
   position: relative;
-  padding: 1.5rem 0;
 }
 
 /* Hide the images by default */
@@ -345,20 +314,19 @@ section.problemSolution {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
-  padding: 1.6rem;
-  color: var(--primary-color);
+  padding: 1.5rem;
+  color: #E5E6E2;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.8rem;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 0.3rem 0.3rem 0;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0.3rem 0 0 0.3rem;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -371,7 +339,7 @@ section.problemSolution {
   cursor: pointer;
   height: .75rem;
   width: .75rem;
-  margin: 0 2px;
+  margin: 0 0.2rem;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -380,7 +348,7 @@ section.problemSolution {
 
 
 .active, .dot:hover {
-  background-color: var(--secondary-color);
+  background-color: #211F20;
 }
 
 /* Fading animation */
@@ -401,4 +369,194 @@ section.problemSolution {
   to {opacity: 1}
 }
 
+/* 2.) Discovery and Research */
 
+/* User Surveys */
+.inner.survey {
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Competitive Analysis */
+.inner.analysis {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 480px;
+  padding: 2.5rem 0;
+
+}
+
+img.competitor {
+  width: 33.33%;
+}
+
+/* Survey Results */
+.inner.survey_results {
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
+}
+
+h4.redLine {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #CC2936;
+}
+
+/* Personas */
+.inner.personas {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem;
+}
+
+h4.blueLine {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #235789;
+}
+
+.groupPersonas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.personaContent {
+  text-align: left;
+}
+
+img.persona {
+  max-width: 75%;
+  height: auto;
+}
+
+/* 3.)INFORMATION ARCHITECTURE */
+
+/* User Stories */
+.inner.userStories {
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
+}
+
+.categories {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 0rem 1.5rem;
+}
+
+.story {
+  max-width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+/* User Flows */
+.inner.userFlows {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Wireframes */
+.inner.wireframes {
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
+}
+
+/* User Testing */
+.inner.userTesting {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem;
+}
+
+h4.blackLine {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #211F20;
+}
+
+/* User Testing */
+.inner.userTesting {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem;
+}
+
+/* 4.) VISUAL DESIGN */
+
+/* Branding */
+.inner.branding {
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
+}
+
+.traits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.image_container{
+  text-align: center;
+}
+
+/* Branding: Typeface */
+.inner.brandingType {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Branding: Color */
+.inner.brandingColor {
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
+}
+
+.pallete {
+  display: flex;
+  padding: 2.5rem 0 1.5rem 0;
+}
+
+.colorBox {
+  width: 11.31rem;
+  height: 11.31rem;
+  max-width: 25%;
+}
+
+
+/* Transition */
+.inner.transition {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Mock Ups */
+.inner.mockUps{
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Preference Testing */
+.inner.preference {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem;
+}
+
+/* 5.) FINISHING TOUCHES */
+.inner.finishing{
+  background: #211F20;
+  padding: 2.5rem 1.5rem;
+}
+
+/* 6.) FINAL THOUGHTS */
+.inner.finalThoughts {
+  background: #E5E6E2;
+  padding: 2.5rem 1.5rem 7.5rem 1.5rem;
+}
