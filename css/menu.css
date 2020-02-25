@@ -10,8 +10,8 @@
   right: 0;
   z-index: 2;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   opacity: 0;
 }
 
@@ -19,10 +19,9 @@
   position: absolute;
   right: 1.5rem;
   z-index: 1;
-  width: 6rem;
-  height: 5rem;
-  padding: 1rem;
-  background: var(--overlay-color);
+  width: 4.5rem;
+  padding: 0.5rem;
+  background: rgba(33,31,32,.98);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +32,7 @@
   position: relative;
   width: 100%;
   height: .5rem;
-  background-color: var(--primary-color);
+  background-color: #E5E6E2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +81,7 @@
 
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
-  transition-duration: var(--menu-speed);
+  transition-duration: 0.75s;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
@@ -104,7 +103,7 @@
 }
 
 .menu-wrap .menu > div {
-  background: var(--overlay-color);
+  background: rgba(33,31,32,.98);
   width: 200vw;
   height: 200vw;
   display: flex;
@@ -125,7 +124,7 @@
 
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
-  color: var(--primary-color);
+  color: #E5E6E2;
   font-size: 2.0rem;
   padding: 1.5rem;
 }
