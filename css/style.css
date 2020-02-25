@@ -393,8 +393,15 @@ img {
 }
 
 img.competitor {
-  width: 33.33%;
   height: 65%;
+}
+
+.left, .middle {
+  width: 34%;
+}
+
+.right {
+  width: 32%;
 }
 
 /* Survey Results */
