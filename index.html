@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
   </head>
   <body>
-    <nav class="menu-wrap">
+    <nav class="menu-wrap nav_mobile">
       <a href="index.html">
-        <img class="logo" src="../images/logo.png" alt="Hello">
+        <img class="logo" src="../images/logo.png" alt="Logo">
       </a>
       <input type="checkbox" class="toggler">
       <div class="hamburger"><div></div></div>
@@ -32,49 +32,68 @@
         </div>
       </div>
     </nav>
-    <main class="showcase">
-      <div class="container showcase">
-        <section class="inner landingPage">
-          <h1>
-            <span 
-            class="txt-rotate" 
-            data-period="2000" 
-            data-rotate='[ "Hello.", "Bonjour.", "Hola.", "Ciao.", "Hallo.", "Aloha.", "Hoi.", "Shalom." ]'>
-            </span>
-          </h1>
-          <h2> My Name is Tyler Barry </h2>
-          <h3>I Design Products <span>&#38;</span> UX/UI <br>in Boston</h3>
-          <p>See What I've Been Working On</p>
-          <i class="fas fa-chevron-down buttonHolder"></i>
-          <script src="scripts/type.js"></script>
-        </section>
-        <section class="inner project1">
-          <img class="projectPH" src="../images/assemble_ph.png" alt="Assemble Placeholder">
-          <h4 style="padding-bottom: 0rem">Assemble</h4>
-          <p>Assemble is a collaboration tool that bridges the gap between cloud storage and a social platform. This was a project that I was solely responsible for. Starting with defining the problem and finishing at high fidelity prototypes. </p>
-          <form action="https://invis.io/57V3IQEVS6J" method="get">
-            <button class="main">View Prototype</button>
-          </form>
-          <form action="project1.html" method="get">
-            <button class="secondary">See The Process</button>
-          </form>
-        </section>
-        <section class="inner project2">
-          <img class="projectPH" src="../images/capstone_ph.png" alt="Assemble Placeholder">
-          <h4 style="color: #211F20; padding-bottom: 0rem">Capstone</h4>
-          <p style="color: #211F20">Cillum ipsum velit laborum minim anim duis labore ex elit duis veniam voluptate pariatur sunt. Aute culpa nisi ea nulla officia non commodo. Velit nisi ipsum id ut esse amet tempor dolore consequat.</p>
-          <form action="#" method="get">
-            <button class="main" style="background-color: #235789">View Prototype</button>
-          </form>
-          <form action="#" method="get">
-            <button class="secondary" style="color: #235789">See The Process</button>
-          </form>
-          <h4 style="color: #211F20; text-align: center; padding-bottom: 0rem">Let's Connect</h4>
-        </section>
+    <nav class="menu-wrap nav_desktop">
+      <a href="index.html">
+        <img class="logo" src="../images/logo.png" alt="Hello">
+      </a>
+      <div class="menu_links">
+        <ul>
+          <li><a href="#">Resume</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
       </div>
+    </nav>
+    <main class="screen">
+      <section class="inner landingPage">
+        <h1>
+          <span
+          class="txt-rotate"
+          data-period="2000"
+          data-rotate='[ "Hello.", "Bonjour.", "Hola.", "Ciao.", "Hallo.", "Aloha.", "Hoi.", "Shalom." ]'>
+          </span>
+        </h1>
+        <h2> My Name is Tyler Barry </h2>
+        <h3>I Design Products <span>&#38;</span> UX/UI in Boston</h3>
+        <p class="subline">See What I've Been Working On</p>
+        <i class="fas fa-chevron-down buttonHolder"></i>
+        <script src="scripts/type.js"></script>
+      </section>
+      <section class="inner project1">
+        <img class="projectImage" src="../images/assemble_ph.png" alt="Assemble Placeholder">
+        <div class="content">
+          <h3>Assemble</h3>
+          <p class="whiteText">Assemble is a collaboration tool that bridges the gap between cloud storage and a social platform. This was a project that I was solely responsible for. Starting with defining the problem and finishing at high fidelity prototypes.</p>
+          <div class="buttonHolder column">
+            <form action="https://invis.io/57V3IQEVS6J" method="get">
+              <button class="main">View Prototype</button>
+            </form>
+            <form action="project1.html" method="get">
+              <button class="secondary">See The Process</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="inner project2">
+        <img class="projectImage" src="../images/capstone_ph.png" alt="Assemble Placeholder">
+        <div class="content">
+          <h3 class="blackText">Capstone</h3>
+          <p class="blackText">Cillum ipsum velit laborum minim anim duis labore ex elit duis veniam voluptate pariatur sunt. Aute culpa nisi ea nulla officia non commodo. Velit nisi ipsum id ut esse amet tempor dolore consequat.</p>
+          <div class="buttonHolder column">
+            <form action="#" method="get">
+              <button class="main blue">View Prototype</button>
+            </form>
+            <form action="#" method="get">
+              <button class="secondary blue">See The Process</button>
+            </form>
+          </div>
+          <h3 class="connect_mobile blackText">Let's Connect</h3>
+        </div>
+      </section>
     </main>
     <footer>
-      <ul>
+      <h3 class="connect_desktop">Let's Connect</h3>
+      <ul class="icons">
         <li>
           <a href="https://www.linkedin.com/in/tylerjbarry">
             <i class="fab fa-linkedin-in"></i>
