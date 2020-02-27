@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
   </head>
   <body>
-    <nav class="menu-wrap">
+    <nav class="menu-wrap nav_mobile">
       <a href="index.html">
-        <img class="logo" src="../images/logo.png" alt="Hello">
+        <img class="logo" src="../images/logo.png" alt="Logo">
       </a>
       <input type="checkbox" class="toggler">
       <div class="hamburger"><div></div></div>
@@ -25,58 +25,79 @@
           <div>
             <ul>
               <li><a href="#">Projects</a></li>
-              <li style="color: #CC2936"><a href="about.html">About Me</a></li>
+              <li><a class="active" href="about.html">About Me</a></li>
               <li><a href="#">Resume</a></li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    <main class="showcase">
-      <div class="container showcase">
-        <section class="inner aboutMe">
-          <img class="headshot" src="../images/headshot.png" alt="A picture of Tyler Barry">
-          <h4 style="text-align: left; padding-bottom: 0rem">About Me</h4>
-          <p>In 2019, I was working as a General Manager of a small local gelato chain. Throughout my time there, I found myself in a place where I wasn’t able to practice my value for creation within my role. This inspired me to make a bold decision to leave my stable job, and pursue my passions. I wanted to do graphic design but hated the idea of art school. It seemed to lean towards the creative side past my preference. So I began to research jobs in the field of design and discovered Product Design. Reading the job description was exciting. Being able to use both the analytical and creative side of my brain for one job was what I was looking for.<br><br>Today I find myself doing what I love in the field of Product Design. The field has been a way for me to practice excellence, quality, and efficiency. Values that I have held for as long as I can remember. My passion for design comes from a deep satisfaction in helping others and being able to do what I love. I’m incredibly grateful for the opportunity to use my hands and mind to create products. Products that solve the small problems that make a big impact on everyday life.</p>
-        </section>
-        <section class="inner pursuits">
-          <h4 style="padding-bottom: 2.5rem">In Pursuit Of</h4>
-          <div class="simplicity">
-            <h5>Simplicity</h5>
-            <p style="padding-top: 0rem">“It is always the simple that produce the marvelous” - <span style="color: #CC2936">Amelia Barr</span></p>
-            <p style="padding-top: 0rem">I find that people equate simplicity with less work. When actually simplicity can be more work than complex. Simplicity, to me, is a practice of decreasing the inessentials to master the essentials.</p>
-          </div>
-          <div class="quality">
-            <h5>Quality</h5>
-            <p style="padding-top: 0rem">“Quality is remembered far after price is forgotten” - <span style="color: #CC2936">Aldo Gucci</span></p>
-            <p style="padding-top: 0rem">Quality is where trust is built and loyalty is earned. If you’re doing something and not giving it your best, it’s not worth doing.</p>
-          </div>
-          <div class="efficiency">
-            <h5>Efficiency</h5>
-            <p style="padding-top: 0rem">“If I had six hours to chop down a tree, I’d spend the first four sharpening the axe.”<br>- <span style="color: #CC2936">Abraham Lincoln</span></p>
-            <p style="padding-top: 0rem">Efficiency (for myself and users) is my goal and the only way to achieve it is by spending time effectively.</p>
-          </div>
-        </section>
-        <section class="inner values">
-          <h4 style="padding-bottom: 2.5rem; color: #211F20">What I Value</h4>
-          <div class="simplicity">
-            <h5 style="-webkit-text-stroke-color: #211F20">Empathy</h5>
-            <p style="padding-top: 0rem; color:#211F20">UX/UI Design is all about designing with the user in mind. The only way to do that well is with a strong foundation of empathy to work with. I’ve been working out mine for years between my personal and professional life.</p>
-          </div>
-          <div class="quality">
-            <h5 style="-webkit-text-stroke-color: #211F20">Reliability</h5>
-            <p style="padding-top: 0rem; color:#211F20">I have a solid track record of being reliable and loyal to my commitments. I’m a firm believer that the level of reliability you perform at is directly related to your true core values.</p>
-          </div>
-          <div class="efficiency">
-            <h5 style="-webkit-text-stroke-color: #211F20">Design Thinking</h5>
-            <p style="padding-top: 0rem; color:#211F20">Before I could ever put it into words, I had an eye for what looked good and what worked. Now, having a formal training in design, I’ve learned to hone in on what about a design isn’t working and what it takes to allow elements to come together and compose a beautiful design.</p>
-            <h4 style="color: #211F20; text-align: center; padding-bottom: 0rem;">Let's Connect</h4>
-          </div>
-        </section>
+    <nav class="menu-wrap nav_desktop">
+      <a href="index.html">
+        <img class="logo" src="../images/logo.png" alt="Hello">
+      </a>
+      <div class="menu_links">
+        <ul>
+          <li><a href="#">Resume</a></li>
+          <li><a class="active" href="about.html">About Me</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
       </div>
+    </nav>
+    <main class="screen">
+      <section class="inner about">
+        <img class="headshot" src="../images/headshot.png" alt="A picture of Tyler Barry">
+        <div class="content">
+          <h3>About Me</h3>
+          <p class="whiteText">In 2019, I was working as a General Manager of a small local gelato chain. Throughout my time there, I found myself in a place where I wasn’t able to practice my value for creation within my role. This inspired me to make a bold decision to leave my stable job, and pursue my passions. I wanted to do graphic design but hated the idea of art school. It seemed to lean towards the creative side past my preference. So I began to research jobs in the field of design and discovered Product Design. Reading the job description was exciting. Being able to use both the analytical and creative side of my brain for one job was what I was looking for.<br><br>Today I find myself doing what I love in the field of Product Design. The field has been a way for me to practice excellence, quality, and efficiency. Values that I have held for as long as I can remember. My passion for design comes from a deep satisfaction in helping others and being able to do what I love. I’m incredibly grateful for the opportunity to use my hands and mind to create products. Products that solve the small problems that make a big impact on everyday life.</p>
+        </div>
+      </section>
+      <section class="inner pursuit">
+        <div class="list_display row">
+          <h3>In Pursuit Of</h3>
+          <div class="list">
+            <div class="listItem simplicity">
+              <h4>Simplicity</h4>
+              <p class="whiteText">“It is always the simple that produce the marvelous”<br> - <span style="color: #CC2936">Amelia Barr</span></p>
+              <p class="whiteText">I find that people equate simplicity with less work. When actually simplicity can be more work than complex. Simplicity, to me, is a practice of decreasing the inessentials to master the essentials.</p>
+            </div>
+            <div class="listItem quality">
+              <h4>Quality</h4>
+              <p class="whiteText">“Quality is remembered far after price is forgotten”<br> - <span style="color: #CC2936">Aldo Gucci</span></p>
+              <p class="whiteText">Quality is where trust is built and loyalty is earned. If you’re doing something and not giving it your best, it’s not worth doing.</p>
+            </div>
+            <div class="listItem efficiency">
+              <h4>Efficiency</h4>
+              <p class="whiteText">“Efficiency is doing better what is already being done.”<br> - <span style="color: #CC2936">Peter Drucker</span></p>
+              <p class="whiteText">Efficiency (for myself and users) is my goal and the only way to achieve it is by spending time effectively.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="inner value">
+        <div class="list_display row">
+          <h3 class="blackText">What I Value</h3>
+          <ul class="list">
+            <li class="listItem empathy">
+              <h4 class="blackText">Empathy</h4>
+              <p>UX/UI Design is all about designing with the user in mind. The only way to do that well is with a strong foundation of empathy to work with. I’ve been working out mine for years between my personal and professional life.</p>
+            </li>
+            <li class="listItem reliability">
+              <h4 class="blackText">Reliability</h4>
+              <p>I have a solid track record of being reliable and loyal to my commitments. I’m a firm believer that the level of reliability you perform at is directly related to your true core values.</p>
+            </li>
+            <li class="listItem designThinking">
+              <h4 class="blackText">Design Thinking</h4>
+              <p>Before I could ever put it into words, I had an eye for what looked good and what worked. Now, having a formal training in design, I’ve learned to hone in on what about a design isn’t working and what it takes to allow elements to come together and compose a beautiful design.</p>
+            </li>
+          </ul>
+        </div>
+        <h3 class="connect_mobile blackText">Let's Connect</h3>
+      </section>
     </main>
     <footer>
-      <ul>
+      <h4 class="connect_desktop">Let's Connect</h4>
+      <ul class="icons">
         <li>
           <a href="https://www.linkedin.com/in/tylerjbarry">
             <i class="fab fa-linkedin-in"></i>
