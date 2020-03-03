@@ -14,6 +14,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 2.2rem;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -40,6 +41,7 @@ h2 {
 
 h3 {
   color: #E5E6E2;
+  flex: 100%;
   font-family: aktiv-grotesk, sans-serif;
   font-size: 2.4rem;
   font-style: normal;
@@ -49,6 +51,7 @@ h3 {
 }
 
 h4 {
+  flex: 100%;
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 700;
   font-size: 3.6rem;
@@ -84,7 +87,7 @@ h4.black {
   padding: 3rem 0 ;
 }
 
-/*CONTAINERw*/
+/*CONTAINERS*/
 
 .container {
   display: flex;
@@ -95,6 +98,7 @@ h4.black {
 .contentContainer {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin: auto;
   max-width: 1400px;
 }
@@ -309,13 +313,13 @@ header.connect_desktop {
 
  /*SUMMARY*/
  .studyHeading {
-   align-items: baseline;
    display: flex;
-   flex-direction: row;
+   align-items: baseline;
  }
 
  .studyHeading > h3 {
    padding-right: 1.5rem;
+   flex: none;
  }
 
  /* SLIDER CSS */
@@ -432,6 +436,7 @@ p.persona {
 /*imageHolder*/
 .imageHolder {
   text-align: center;
+  flex: 100%;
 }
 
 
@@ -569,6 +574,16 @@ p.persona {
 
 }
 
+@media all and (min-width: 768px) {
+  .projectImage.headshot {
+    max-width: 40rem;
+  }
+
+  .mainButton, .secondaryButton {
+    min-width: 20rem;
+  }
+}
+
 /*DESKTOP MEDIA QUERY*/
 @media all and (min-width: 900px) {
 
@@ -631,6 +646,11 @@ p.persona {
     justify-content: center;
     padding: 1.5rem 1.5rem 1.5rem 3rem;
     width: 45%;
+  }
+
+  .container1.typography {
+    width: 45%;
+    margin: auto;
   }
 
 /*NAVBAR*/
@@ -814,4 +834,30 @@ p.persona {
 .container1.extraPadding {
   padding: 0rem 3rem;
 }
+}
+
+@media all and (min-width: 1024px){
+  .mainButton, .secondaryButton {
+    padding: 1rem;
+  }
+
+  .contentContainer.rolesToolsDeliver {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .container1.rtd, .container2.rtd {
+    width: 70%;
+  }
+
+  .list.rtd {
+    width: 700px;
+    margin: auto;
+  }
+
+  h3.category.blue {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
 }
