@@ -842,6 +842,10 @@ p.persona {
 .container1.extraPadding {
   padding: 0rem 3rem;
 }
+  
+.container2.headshot {
+  text-align: center;
+}
 }
 
 @media all and (min-width: 1024px){
