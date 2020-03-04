@@ -850,6 +850,10 @@ p.persona {
 .projectImage.headshot {
   max-width: 50rem;
 }
+
+.iconHolder {
+   height: 20vh;
+ }
 }
 
 @media all and (min-width: 1024px){
