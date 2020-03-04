@@ -272,6 +272,7 @@ header.connect_desktop {
    font-style: normal;
    font-weight: 700;
    margin: 1.5rem 0;
+   min-width: 20rem;
    padding: 1.5rem 3.2rem;
    text-align: center;
    text-decoration: none;
@@ -288,6 +289,7 @@ header.connect_desktop {
    font-style: normal;
    font-weight: 700;
    margin: 1.5rem 0;
+   min-width: 20rem;
    padding: 1.5rem 3.2rem;
    text-align: center;
    text-decoration: none;
@@ -396,7 +398,7 @@ header.connect_desktop {
  .iconHolder {
    display: flex;
    flex-direction: row;
-   height: 20vh;
+   height: 15vh;
    justify-content: center;
  }
 
