@@ -464,6 +464,11 @@ p.persona {
   justify-content: center;
 }
 
+/*Branding*/
+.projectImage.branding {
+  max-width: 50%;
+}
+
 /*PALLETES*/
 .row.color{
   display: flex;
