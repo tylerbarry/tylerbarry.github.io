@@ -396,6 +396,7 @@ header.connect_desktop {
  .iconHolder {
    display: flex;
    flex-direction: row;
+   height: 10vh;
    justify-content: center;
  }
 
