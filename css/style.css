@@ -846,6 +846,10 @@ p.persona {
 .container2.headshot {
   text-align: center;
 }
+  
+.projectImage.headshot {
+  max-width: 50rem;
+}
 }
 
 @media all and (min-width: 1024px){
