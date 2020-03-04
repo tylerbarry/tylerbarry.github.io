@@ -852,7 +852,7 @@ p.persona {
 }
 
 .iconHolder {
-   height: 50vh;
+   max-height: 30vh;
  }
 }
 
