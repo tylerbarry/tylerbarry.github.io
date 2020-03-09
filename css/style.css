@@ -76,7 +76,7 @@ p {
 }
 
 .red {
-  color: #FF3D3D;
+  color: #cc2936;
 }
 
 h4.black {
@@ -262,10 +262,10 @@ header.connect_desktop {
 
  /*BUTTON*/
  .mainButton {
-   background-color: #FF3D3D;
+   background-color: #cc2936;
    border: none;
    border-radius: 2.5rem;
-   color: #211F20;
+   color: #E5E6E2;
    display: inline-block;
    font-family: aktiv grotesk, sans-serif;
    font-size: 1.6rem;
