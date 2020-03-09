@@ -399,7 +399,6 @@ header.connect_desktop {
    display: flex;
    flex-direction: row;
    height: 15vh;
-   justify-content: center;
  }
 
  .icon {
@@ -596,8 +595,8 @@ p.persona {
 @media all and (min-width: 900px) {
 
   body {
-    font-size: 2.0rem;
-    line-height: 2.6rem;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
   }
 
   h1 {
@@ -800,7 +799,7 @@ p.persona {
   }
 
   h3.assumption {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     padding: 0;
   }
 
