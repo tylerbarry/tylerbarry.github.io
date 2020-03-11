@@ -330,7 +330,7 @@ header.connect_desktop {
  }
 
  .studyHeading > h3 {
-   padding-right: 1.5rem;
+   padding: 0 1.5rem 0 3rem;
    flex: none;
  }
 
