@@ -334,10 +334,18 @@ header.connect_desktop {
    flex: none;
  }
 
+ h3.pS {
+   padding-bottom: 1.5rem;
+ }
+
+ h3.pS.solution {
+   padding-top: 4.5rem;
+ }
+
  /* SLIDER CSS */
  /* Slideshow container */
  .slideshow-container {
-   padding-top: 2.5rem;
+   padding: 0 0 0 6rem;
    max-width: 100%;
    position: relative;
  }
@@ -781,9 +789,6 @@ h3.procedure {
   /*CASE STUDY*/
 
   /*SUMMARY*/
-  .contentContainer.caseStudy {
-    align-items: center;
-  }
 
   .detailItem {
     font-size: 1.4rem;
