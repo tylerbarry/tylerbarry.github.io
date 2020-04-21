@@ -261,7 +261,6 @@ header.connect_desktop {
 
 .landingPageAbout {
   background: linear-gradient(-45deg, #00BBF9 0%, #DE3C4B 95%);
-  height: 100vh;
   display: flex;
   justify-content: center;
 }
