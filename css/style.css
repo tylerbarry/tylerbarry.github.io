@@ -12,8 +12,8 @@ body {
   font-family: merriweather, serif;
   font-size: 1.4rem;
   font-style: normal;
-  font-weight: 300;
-  line-height: 3.2rem;
+  font-weight: 400;
+  line-height: normal;
   scroll-behavior: smooth;
 }
 
@@ -25,12 +25,12 @@ h1 {
   line-height: 9rem;
   padding: 3rem 0;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color: #E5E6E2;
+  -webkit-text-stroke-color: #FFFFFF;
   -webkit-text-stroke-width: 0.2rem;
 }
 
 h2 {
-  color: #E5E6E2;
+  color: #FFFFFF;
   font-family: aktiv-grotesk, sans-serif;
   font-size: 5rem;
   font-style: normal;
@@ -40,7 +40,7 @@ h2 {
 }
 
 h3 {
-  color: #E5E6E2;
+  color: #FFFFFF;
   flex: 100%;
   font-family: aktiv-grotesk, sans-serif;
   font-size: 2.4rem;
@@ -51,7 +51,7 @@ h3 {
 }
 
 h4 {
-  color: #CC2936;
+  color: #DE3C4B;
   flex: 100%;
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 700;
@@ -63,23 +63,23 @@ h4 {
 
 p {
   padding-bottom: 1.5rem;
-  line-height: 3.2rem;
+  line-height: 28px;
 }
 
 .white {
-  color: #E5E6E2;
+  color: #FFFFFF;
 }
 
 .black {
-  color: #211F20;
+  color: #030301;
 }
 
 .red {
-  color: #cc2936;
+  color: #DE3C4B;
 }
 
 h4.black {
-  -webkit-text-stroke-color: #211F20;
+  -webkit-text-stroke-color: #030301;
 }
 
 .extraPadding {
@@ -100,14 +100,25 @@ h4.black {
   flex-wrap: wrap;
   margin: auto;
   max-width: 1400px;
+  align-self: center;
+}
+
+.blackBackGroundHome {
+  height: 100vh;
+  background-color: #030301;
+}
+
+.whiteBackGroundHome {
+  height: 85vh;
+  background-color: #ffffff;
 }
 
 .blackBackGround {
-  background-color: #211F20;
+  background-color: #030301;
 }
 
 .whiteBackGround {
-  background-color: #E5E6E2;
+  background-color: #ffffff;
 }
 
 .centered {
@@ -121,7 +132,7 @@ h4.black {
 /*NAV BAR*/
 
 nav {
-    background: #211F20;
+    background: #030301;
     padding: .5rem 1.5rem;
     position: sticky;
     top: 0;
@@ -133,12 +144,12 @@ ul {
 }
 
 a {
-    color: #E5E6E2;
+    color: #ffffff;
     text-decoration: none;
 }
 
 li.item {
-  color: #E5E6E2;
+  color: #ffffff;
   font-family: aktiv-grotesk, sans-serif;
   font-size: 2.4rem;
   font-style: normal;
@@ -213,7 +224,7 @@ h3.connect_mobile {
 }
 
 footer {
-    background: #211F20;
+    background: #030301;
     bottom: 0;
     display: flex;
     flex-direction: row;
@@ -240,7 +251,7 @@ footer {
 }
 
 header.connect_desktop {
-  color: #E5E6E2;
+  color: #ffffff;
   font-family: aktiv-grotesk, sans-serif;
   font-size: 2.4rem;
   font-style: normal;
@@ -249,8 +260,16 @@ header.connect_desktop {
 }
 
 /*LANDING PAGE*/
+
+.landingPageAbout {
+  background: linear-gradient(-45deg, #00BBF9 0%, #DE3C4B 95%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
  .landingPage.homePage {
-   background: linear-gradient(180deg, #CC2936 0%, #235789 100%);
+   background: linear-gradient(-45deg, #00BBF9 0%, #DE3C4B 95%);
    height: 100vh;
    display: flex;
    justify-content: center;
@@ -261,13 +280,17 @@ header.connect_desktop {
    max-width: 100%;
  }
 
+ .projectImage.kurry {
+   max-width: 80%;
+ }
+
  /*BUTTON*/
  .mainButton {
-   background-image: linear-gradient(to right, #CC2936, #235789, #CC2936, #235789);
+   background-image: linear-gradient(to right, #DE3C4B, #00BBF9, #DE3C4B, #00BBF9);
    background-size: 300% 100%;
    border: none;
    border-radius: 2.5rem;
-   color: #E5E6E2;
+   color: #ffffff;
    display: inline-block;
    font-family: aktiv grotesk, sans-serif;
    font-size: 1.6rem;
@@ -284,7 +307,7 @@ header.connect_desktop {
    background: Transparent;
    border: solid .2rem;
    border-radius: 2.5rem;
-   color: #E5E6E2;
+   color: #ffffff;
    display: inline-block;
    font-family: aktiv grotesk, sans-serif;
    font-size: 1.6rem;
@@ -315,11 +338,11 @@ header.connect_desktop {
  }
 
  .mainButton.red {
-   background-image: linear-gradient(to left, #CC2936, #744962, #CC2936, #744962);
+   background-image: linear-gradient(to left, #DE3C4B, #00BBF9, #DE3C4B, #00BBF9);
  }
 
  .secondaryButton.blue {
-   color: #235789;
+   color: #888888;
  }
 
  /*CASE STUDY*/
@@ -421,8 +444,8 @@ header.connect_desktop {
  }
 
  .icon {
-   max-width: 30%;
-   padding: 1.5rem 1rem;
+   max-width: 33%;
+   padding: 1.5rem 1.5rem;
  }
 
 /*SURVEY RESULTS*/
@@ -533,6 +556,19 @@ h3.procedure {
 }
 .new.column.color.four {
   background: #87A878;
+}
+
+.new.column.color.one.kurry {
+  background: #FFAA5A;
+}
+.new.column.color.two.kurry {
+  background: #FFD25A;
+}
+.new.column.color.three.kurry {
+  background: #FFFFFF;
+}
+.new.column.color.four.kurry {
+  background: #0A100D;
 }
 
 
@@ -673,6 +709,10 @@ h3.procedure {
     flex-direction: column;
     padding: 3rem 3rem 3rem 0;
     width: 55%;
+  }
+
+  .container1.rtd {
+    padding: 0;
   }
 
   .container2 {
